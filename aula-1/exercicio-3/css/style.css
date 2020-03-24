@@ -7,10 +7,11 @@ header {
     background: url(../img/gato-background.jpg);
     background-size: cover;
     background-position: center;
-    height: 180px;  
+    min-height: 180px;  
     align-items: center;  
+    padding: 20px;
 }
-header div {
+header-caixa {
     align-items: center;
     display: flex;
 }
@@ -32,4 +33,14 @@ main {
     width: 250px;
     height: 150px;   
 }
+@media screen and (max-width:768px){ 
+    .todos{ 
+        flex-wrap: wrap;
+        
+    }
+    .todos:last-child{
+        margin-top: 0;
+    }
+}
+
 /*  */

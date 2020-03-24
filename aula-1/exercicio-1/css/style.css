@@ -28,7 +28,7 @@ h2 {
 }
 
 p {
-    width: 430px;
+    max-width: 430px;
     margin-bottom: 110px;
     text-align: right;  
 }
@@ -42,14 +42,14 @@ p {
     width: 45%;
     display: inline-block;
 }
-
 .sobre-imagem {
     width: 45%;
     display: inline-block;
 }
 
 .section-sobre {
-   width: 960px;
+   width: 90%;
+   max-width: 960px;
    margin: 0 auto; /* macete para deixar elementos block centralizados */
    margin-top: 100px;
 }
@@ -73,3 +73,29 @@ p {
     border: 1px solid #5d1277; /* cria uma borda no elemento. Ordem de valores: grossura-da-borda tipo-da-borda cor-da-borda. */
 }
 
+@media (max-width: 400px) {
+    h1, h2, p {
+        text-align: center;
+    }
+
+    .sobre-conteudo {
+        width: 100%;
+        display: block;
+    }
+
+    .sobre-conteudo__botoes {
+        text-align: center;
+    }
+
+    .sobre-imagem {
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:800px){ 
+    .todos{ 
+        flex-wrap;
+    }
+}

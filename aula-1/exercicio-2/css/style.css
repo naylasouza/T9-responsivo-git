@@ -31,6 +31,7 @@ h2 {
 }
 
 .sobre-conteudo__img {
+    content= "width=device-width, initial-scale=1">
     margin-top: 80px;
 }  
     
@@ -50,6 +51,8 @@ h2 {
     height: 86px;
     margin-left: 40px;
 }
-
-
-
+@media screen and (max-width:400px){
+    h1{
+        font-size: 30px;
+    }
+}
