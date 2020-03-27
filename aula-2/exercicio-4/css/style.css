@@ -78,6 +78,7 @@ body {
 .btn_purple:hover {
     background-color: #3a006d;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 500px){
 .form > div{
     display: flex;
@@ -87,3 +88,19 @@ body {
 
 }
 }
+=======
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+    .form > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    label {
+        text-align: center;
+    }
+}
+>>>>>>> 0a262943e1a69bb84619d8cab8928229dbd04e89
